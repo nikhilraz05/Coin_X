@@ -17,6 +17,10 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(urlencoded({ extended: true }));
 
+app.get('/', (req, res) => {
+  res.send('products api running new deploy');
+});
+
 // API endpoint to upload CSV
 app.post("/upload-csv", upload.single("file"), async (req, res) => {
   try {

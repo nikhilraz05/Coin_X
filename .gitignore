@@ -21,3 +21,5 @@ log/*
 .env
 src/orm/migrations
 refreshDB.sh
+public/temp/
+

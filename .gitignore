@@ -1,0 +1,23 @@
+.idea/
+.vscode/
+.DS_Store
+
+node_modules/
+build/
+dist/
+tmp/
+temp/
+logs/
+
+database/*
+!database/.gitkeep 
+
+log/*
+!log/.gitkeep 
+*.log
+
+# keep config folder with env files ONLY for demo purposes
+# config/
+.env
+src/orm/migrations
+refreshDB.sh
